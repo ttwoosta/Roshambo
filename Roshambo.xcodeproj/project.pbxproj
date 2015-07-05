@@ -15,6 +15,7 @@
 		067A4E431B4651FB001BFE61 /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E421B4651FB001BFE61 /* RoshamboTests.swift */; };
 		067A4E4D1B465285001BFE61 /* RPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E4C1B465285001BFE61 /* RPS.swift */; };
 		067A4E4F1B46549D001BFE61 /* RPSMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E4E1B46549D001BFE61 /* RPSMatch.swift */; };
+		067A4E511B465E1C001BFE61 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E501B465E1C001BFE61 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		067A4E421B4651FB001BFE61 /* RoshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboTests.swift; sourceTree = "<group>"; };
 		067A4E4C1B465285001BFE61 /* RPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPS.swift; sourceTree = "<group>"; };
 		067A4E4E1B46549D001BFE61 /* RPSMatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSMatch.swift; sourceTree = "<group>"; };
+		067A4E501B465E1C001BFE61 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				067A4E2C1B4651FA001BFE61 /* AppDelegate.swift */,
 				067A4E2E1B4651FA001BFE61 /* ViewController.swift */,
+				067A4E501B465E1C001BFE61 /* ResultsViewController.swift */,
 				067A4E4C1B465285001BFE61 /* RPS.swift */,
 				067A4E4E1B46549D001BFE61 /* RPSMatch.swift */,
 				067A4E301B4651FA001BFE61 /* Main.storyboard */,
@@ -221,6 +224,7 @@
 				067A4E2F1B4651FA001BFE61 /* ViewController.swift in Sources */,
 				067A4E2D1B4651FA001BFE61 /* AppDelegate.swift in Sources */,
 				067A4E4D1B465285001BFE61 /* RPS.swift in Sources */,
+				067A4E511B465E1C001BFE61 /* ResultsViewController.swift in Sources */,
 				067A4E4F1B46549D001BFE61 /* RPSMatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
