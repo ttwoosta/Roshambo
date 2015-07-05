@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		067A4E2D1B4651FA001BFE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E2C1B4651FA001BFE61 /* AppDelegate.swift */; };
-		067A4E2F1B4651FA001BFE61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E2E1B4651FA001BFE61 /* ViewController.swift */; };
+		067A4E2F1B4651FA001BFE61 /* RPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E2E1B4651FA001BFE61 /* RPSViewController.swift */; };
 		067A4E321B4651FA001BFE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067A4E301B4651FA001BFE61 /* Main.storyboard */; };
 		067A4E341B4651FA001BFE61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067A4E331B4651FA001BFE61 /* Images.xcassets */; };
 		067A4E371B4651FA001BFE61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 067A4E351B4651FA001BFE61 /* LaunchScreen.xib */; };
@@ -32,7 +32,7 @@
 		067A4E271B4651FA001BFE61 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067A4E2B1B4651FA001BFE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067A4E2C1B4651FA001BFE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		067A4E2E1B4651FA001BFE61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		067A4E2E1B4651FA001BFE61 /* RPSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSViewController.swift; sourceTree = "<group>"; };
 		067A4E311B4651FA001BFE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067A4E331B4651FA001BFE61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		067A4E361B4651FA001BFE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				067A4E2C1B4651FA001BFE61 /* AppDelegate.swift */,
-				067A4E2E1B4651FA001BFE61 /* ViewController.swift */,
+				067A4E2E1B4651FA001BFE61 /* RPSViewController.swift */,
 				067A4E501B465E1C001BFE61 /* ResultsViewController.swift */,
 				067A4E4C1B465285001BFE61 /* RPS.swift */,
 				067A4E4E1B46549D001BFE61 /* RPSMatch.swift */,
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				067A4E2F1B4651FA001BFE61 /* ViewController.swift in Sources */,
+				067A4E2F1B4651FA001BFE61 /* RPSViewController.swift in Sources */,
 				067A4E2D1B4651FA001BFE61 /* AppDelegate.swift in Sources */,
 				067A4E4D1B465285001BFE61 /* RPS.swift in Sources */,
 				067A4E511B465E1C001BFE61 /* ResultsViewController.swift in Sources */,
@@ -423,6 +423,7 @@
 				067A4E481B4651FB001BFE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		067A4E491B4651FB001BFE61 /* Build configuration list for PBXNativeTarget "RoshamboTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +432,7 @@
 				067A4E4B1B4651FB001BFE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
