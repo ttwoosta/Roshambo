@@ -19,6 +19,7 @@ class RPSViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,6 +50,16 @@ class RPSViewController: UIViewController {
         // RPSMatch struct stores the result of a match
         self.match = RPSMatch(p1: playerMove, p2: compMove)
         
+        // insert match to history
+        var history = AppDelegate.sharedDelegate().history
+        history.append(self.match)
+        
+        // is this a bug?
+        // is array an object?
+        // why couldn't array retain?
+        AppDelegate.sharedDelegate().history = history
+        
+        
         self.performSegueWithIdentifier("results", sender: nil)
         
     }
@@ -57,8 +68,6 @@ class RPSViewController: UIViewController {
         if segue.identifier == "results" {
             let vc = segue.destinationViewController as! ResultsViewController
             vc.match = self.match
-            
-            
         }
     }
 

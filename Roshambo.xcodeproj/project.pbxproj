@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064DC41B1B4DC78C00E26A4B /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064DC41A1B4DC78C00E26A4B /* HistoryTableViewController.swift */; };
+		064DC41D1B4E166800E26A4B /* RPSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064DC41C1B4E166800E26A4B /* RPSTableViewCell.swift */; };
 		067A4E2D1B4651FA001BFE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E2C1B4651FA001BFE61 /* AppDelegate.swift */; };
 		067A4E2F1B4651FA001BFE61 /* RPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067A4E2E1B4651FA001BFE61 /* RPSViewController.swift */; };
 		067A4E321B4651FA001BFE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067A4E301B4651FA001BFE61 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		064DC41A1B4DC78C00E26A4B /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		064DC41C1B4E166800E26A4B /* RPSTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPSTableViewCell.swift; sourceTree = "<group>"; };
 		067A4E271B4651FA001BFE61 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067A4E2B1B4651FA001BFE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067A4E2C1B4651FA001BFE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 				067A4E2C1B4651FA001BFE61 /* AppDelegate.swift */,
 				067A4E2E1B4651FA001BFE61 /* RPSViewController.swift */,
 				067A4E501B465E1C001BFE61 /* ResultsViewController.swift */,
+				064DC41A1B4DC78C00E26A4B /* HistoryTableViewController.swift */,
+				064DC41C1B4E166800E26A4B /* RPSTableViewCell.swift */,
 				067A4E4C1B465285001BFE61 /* RPS.swift */,
 				067A4E4E1B46549D001BFE61 /* RPSMatch.swift */,
 				067A4E301B4651FA001BFE61 /* Main.storyboard */,
@@ -223,6 +229,8 @@
 			files = (
 				067A4E2F1B4651FA001BFE61 /* RPSViewController.swift in Sources */,
 				067A4E2D1B4651FA001BFE61 /* AppDelegate.swift in Sources */,
+				064DC41B1B4DC78C00E26A4B /* HistoryTableViewController.swift in Sources */,
+				064DC41D1B4E166800E26A4B /* RPSTableViewCell.swift in Sources */,
 				067A4E4D1B465285001BFE61 /* RPS.swift in Sources */,
 				067A4E511B465E1C001BFE61 /* ResultsViewController.swift in Sources */,
 				067A4E4F1B46549D001BFE61 /* RPSMatch.swift in Sources */,

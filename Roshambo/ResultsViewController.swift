@@ -59,8 +59,7 @@ class ResultsViewController: UIViewController {
                 })
         })
     }
-    
-    
+        
     func messageForMatch(match: RPSMatch) -> String {
         
         // Handle the tie
